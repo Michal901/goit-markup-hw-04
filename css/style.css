@@ -9,6 +9,7 @@
   --custom-menu-color: #434455;
   --custom-border-color: #e7e9fc;
   --grey-border-color: #8e8f99;
+  --mint-hover-color: #31d0aa;
   --custom-h-font-size: 36px;
   --custom-p-font-size: 16px;
 }
@@ -178,10 +179,18 @@ a.hover-menu-sec:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--hover-color);
+  background-color: var(--sec-back-color);
+}
+.footer-cont-two-a:focus {
+  background-color: #31d0aa;
+}
+.footer-cont-two-a:hover {
+  background-color: #31d0aa;
 }
 .footer-cont-two-svg {
   fill: var(--background-color);
+  width: 100%;
+  height: 100%;
 }
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
