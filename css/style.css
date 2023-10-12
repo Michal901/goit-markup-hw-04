@@ -369,6 +369,7 @@ a.hover-menu-sec:focus {
   color: var(--button-menu-color);
 }
 .fifth-section-svg {
+  fill: currentColor;
 }
 /* FIFTH SECTION END */
 /* !!!!!MAIN END!!!! */
