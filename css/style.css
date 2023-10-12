@@ -359,6 +359,14 @@ a.hover-menu-sec:focus {
   background-color: var(--sec-back-color);
   border-radius: 4px;
 }
+.fifth-section-a:hover {
+  border-color: var(--button-menu-color);
+  color: var(--button-menu-color);
+}
+.fifth-section-a:focus {
+  border-color: var(--button-menu-color);
+  color: var(--button-menu-color);
+}
 .fifth-section-svg {
 }
 /* FIFTH SECTION END */
