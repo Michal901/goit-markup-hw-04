@@ -8,6 +8,8 @@
   --sec-back-color: #f4f4fd;
   --custom-menu-color: #434455;
   --custom-border-color: #e7e9fc;
+  --custom-h-font-size: 36px;
+  --custom-p-font-size: 16px;
 }
 * {
   box-sizing: border-box;
@@ -207,9 +209,13 @@ a.hover-menu-sec:focus {
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
+  background-color: var(--sec-back-color);
   border-radius: 4px;
   margin-bottom: 8px;
+}
+.second-section-svg {
+  width: 100%;
+  height: 100%;
 }
 .portfo-section-ul {
   display: flex;
@@ -228,7 +234,7 @@ a.hover-menu-sec:focus {
 }
 
 .sec-section-p {
-  font-size: 16px;
+  font-size: var(--custom-p-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
@@ -242,7 +248,7 @@ a.hover-menu-sec:focus {
   width: calc((100% - 48px) / 3);
 }
 .third-section-h {
-  font-size: 36px;
+  font-size: var(--custom-h-font-size);
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -261,7 +267,7 @@ a.hover-menu-sec:focus {
   padding: 32px 16px;
 }
 .fourth-section-h {
-  font-size: 36px;
+  font-size: var(--custom-h-font-size);
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -316,10 +322,23 @@ a.hover-menu-sec:focus {
   background-color: var(--button-menu-color);
 }
 .socials-svg {
-  fill: color var(--sec-back-color);
+  fill: var(--sec-back-color);
+  width: 100%;
+  height: 100%;
 }
 
 /* FOURTH SECTION END */
+/* FIFTH SECTION */
+.fifth-section {
+  padding: 120px 0;
+}
+.fifth-section-h {
+  font-size: var(--custom-h-font-size);
+  line-height: 1.11;
+  color: var(--custom-link-color);
+  margin-bottom: 72px;
+}
+/* FIFTH SECTION END */
 /* !!!!!MAIN END!!!! */
 /* !!!!!!!!!INDEX END!!!!!!!!! */
 
@@ -338,7 +357,7 @@ ul.portfo-main-ul-frst {
 
 .first-button-portfo {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--custom-p-font-size);
   line-height: 1.5;
   padding: 12px 24px;
   letter-spacing: 0.04em;
