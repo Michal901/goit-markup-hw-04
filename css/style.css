@@ -134,6 +134,13 @@ a.hover-menu-sec:focus {
 .footer {
   background-color: var(--custom-link-color);
 }
+.footer-containers {
+  display: flex;
+  align-items: baseline;
+}
+.footer-container-one {
+  margin-right: 120px;
+}
 .footer-a {
   display: inline-block;
   margin-bottom: 16px;
@@ -141,11 +148,19 @@ a.hover-menu-sec:focus {
 .footer-span {
   color: var(--sec-back-color);
 }
-.footer-p {
+.footer-first-p {
   line-height: 1.5;
   color: var(--sec-back-color);
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.footer-sec-p {
+  font-weight: 500;
+  font-size: var(--custom-p-font-size);
+  line-height: 1.5;
+  color: var(--background-color);
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
