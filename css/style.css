@@ -8,7 +8,7 @@
   --sec-back-color: #f4f4fd;
   --custom-menu-color: #434455;
   --custom-border-color: #e7e9fc;
-  --grey-boreder-color: #8e8f99;
+  --grey-border-color: #8e8f99;
   --custom-h-font-size: 36px;
   --custom-p-font-size: 16px;
 }
@@ -352,12 +352,13 @@ a.hover-menu-sec:focus {
 .fifth-section-a {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--grey-boreder-color);
+  border: 1px solid var(--grey-border-color);
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--sec-back-color);
   border-radius: 4px;
+  color: var(--grey-border-color);
 }
 .fifth-section-a:hover {
   border-color: var(--button-menu-color);
