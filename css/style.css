@@ -202,6 +202,15 @@ a.hover-menu-sec:focus {
 .second-section {
   padding: 120px 0;
 }
+.icon-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .portfo-section-ul {
   display: flex;
   gap: 24px;
