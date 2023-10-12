@@ -180,6 +180,9 @@ a.hover-menu-sec:focus {
   justify-content: center;
   background-color: var(--hover-color);
 }
+.footer-cont-two-svg {
+  fill: var(--background-color);
+}
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
 
