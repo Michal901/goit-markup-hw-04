@@ -188,7 +188,7 @@ a.hover-menu-sec:focus {
   background-color: #31d0aa;
 }
 .footer-cont-two-svg {
-  fill: var(--background-color);
+  fill: var(--sec-back-color);
 }
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
