@@ -289,6 +289,9 @@ a.hover-menu-sec:focus {
 /* SECOND SECTION END */
 
 /* THIRD SECTION */
+.third-section {
+  padding: 120px 0;
+}
 
 .third-section-li {
   width: calc((100% - 48px) / 3);
@@ -403,7 +406,6 @@ a.hover-menu-sec:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--sec-back-color);
   border-radius: 4px;
   color: var(--grey-border-color);
 }
