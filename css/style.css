@@ -75,7 +75,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   color: var(--custom-link-color);
 }
 a.hover-menu-fst {
@@ -94,7 +93,7 @@ a.hover-menu-fst:focus {
 }
 .div-bouth-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .container {
   width: 1158px;
@@ -146,6 +145,7 @@ a.hover-menu-sec:focus {
 .footer-a {
   display: inline-block;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 .footer-span {
   color: var(--sec-back-color);
@@ -482,6 +482,7 @@ ul.portfo-main-ul-frst {
 }
 .shadow {
   display: block;
+  text-decoration: none;
 }
 .shadow:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
